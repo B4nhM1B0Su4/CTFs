@@ -1,0 +1,19 @@
+import string
+#MSG = b'Ilovecake'
+
+#def encryption(msg):
+#    ct = []
+#    for char in msg:
+#        print(char)
+#        ct.append((123 * char + 18) % 256)
+#    print(ct)
+#    return bytes(ct)
+
+#ct = encryption(MSG)
+#print(ct)
+
+MSG = b'%\xf6g\xc4\x99\xa3\xad{\x99'
+print(MSG[0])
+for j in range(10000):
+    if((123*j + 18 - MSG[2]) % 256 == 0):
+        print(chr(j))
