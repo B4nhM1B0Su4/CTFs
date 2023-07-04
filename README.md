@@ -1,3 +1,3 @@
 # CTFs
 
-Participated CTF in the past (mostly Cryptography)
+Participated CTFs in the past (mostly Cryptography)
